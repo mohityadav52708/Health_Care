@@ -8,7 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Orbitron&family=Ubuntu&family=Varela+Round&display=swap');
 
 body{
-    background: url(https://imageio.forbes.com/specials-images/imageserve/62bc54b6d9785913bcd547b5/Close-up-of-doctor-using-a-digital-tablet/960x0.jpg?height=473&width=711&fit=bounds) ; 
+    /* background: url(https://imageio.forbes.com/specials-images/imageserve/62bc54b6d9785913bcd547b5/Close-up-of-doctor-using-a-digital-tablet/960x0.jpg?height=473&width=711&fit=bounds) ;  */
+    background-image: url(https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3VyZ2VyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
     width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
