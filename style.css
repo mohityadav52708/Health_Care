@@ -231,15 +231,13 @@ body{
     font-size: 12px;
 }
 .secondchild_container{
-    width: 100%;
     background-image: none;
-    /* background-color: rgb(196, 221, 242); */
+    background-color: rgb(196, 221, 242);
     height: 100vh;
 }
 .secondchild_container .minisecondhome{
     width: 100%;
-    opacity: 1;
-    background-image: linear-gradient(to right, rgba(196, 221, 242),rgb(196, 221, 242),rgba(196, 221, 242));
+    background-color: rgb(187, 206, 222);
     height: 100vh;
 }
   }
