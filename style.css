@@ -238,7 +238,7 @@ body{
 }
 .secondchild_container .minisecondhome .right{
     width: 25%;
-    height: 100vh;
+    height: 85vh;
     /* background: #000; */
     display: flex;
     flex-direction: column;
@@ -291,15 +291,78 @@ body{
     height: 20vh;
     color: white;
 }
+.button{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+}
 .secondchild_container .minisecondhome .right .bottom{
     background-color: white;
     width: 100%;
     height: 55vh;
 }
-.button{
-    height: 20vh;
-    width: 100%;
+.secondchild_container .minisecondhome .right .bottom .bottom_top{
     display: flex;
+    flex-direction: column;
+   
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_top #opening_hours{
+    text-align: center;
+    color: #008791;
+    margin: 30px;
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_top .bottom_top_Weekdays{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;   
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_top .bottom_top_Weekdays #timing{
+    color: #288188;  
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_middle .bottom_top_Weekdays #weekdays{
+    color: #288188;  
+}
+
+.secondchild_container .minisecondhome .right .bottom .bottom_middle #opening_hours{
+    text-align: center;
+    color: #008791;
+    margin: 30px;
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_middle .bottom_top_Weekdays{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;   
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_middle .bottom_top_Weekdays #timing{
+    color: #288188;  
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_middle .bottom_top_Weekdays #weekday,#weekdays{
+    color: #288188;  
+}
+
+.secondchild_container .minisecondhome .right .bottom .bottom_bottom #opening_hours{
+    text-align: center;
+    color: #008791;
+    margin: 30px;
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_bottom .bottom_top_Weekdays{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;   
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_bottom .bottom_top_Weekdays #timing{
+    color: #288188;  
+}
+.secondchild_container .minisecondhome .right .bottom .bottom_bottom .bottom_top_Weekdays #weekday,#weekdays{
+    color: #288188;  
 }
 
 
@@ -334,12 +397,46 @@ body{
 .secondchild_container{
     background-image: none;
     background-color: rgb(196, 221, 242);
-    height: 100vh;
+    height: 150vh;
 }
 .secondchild_container .minisecondhome{
     width: 100%;
     background-color: rgb(187, 206, 222);
     height: 100vh;
+}
+.secondchild_container .minisecondhome {
+    width: 100%;
+    background-color: inherit;
+    height: 122vh;
+    display: flex;
+    flex-direction: column;
+}
+.secondchild_container .minisecondhome .left {
+    width: 100%;
+    height: 70vh;
+}
+.secondchild_container .minisecondhome .left #heading {
+    font-size: 37px;
+    text-align: center;
+}
+.secondchild_container .minisecondhome .left #para {
+    font-size: 14px;
+    text-align: center;
+}
+.button {
+    margin-top: -20px;
+    height: 12vh;
+    justify-content: center;
+}
+.secondchild_container .minisecondhome .left #button {
+    margin: 14px 25px;
+    font-size: 20px;
+    height: 39px;
+    width: 132px;
+    font-size: 18px;
+}
+.secondchild_container .minisecondhome .right {
+    width: 90%;
 }
   }
 
