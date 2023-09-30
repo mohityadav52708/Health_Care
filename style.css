@@ -434,9 +434,11 @@ body{
     height: 39px;
     width: 132px;
     font-size: 18px;
+    border-style: solid;
 }
 .secondchild_container .minisecondhome .right {
     width: 90%;
+    height: 80vh;
 }
   }
 
