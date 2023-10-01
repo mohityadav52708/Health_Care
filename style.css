@@ -845,7 +845,7 @@ body{
 .fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box{
     width: 100%;
     height: 70vh;
-    margin: -10px 0px;
+    margin: -10px 14px;
 }
 .fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .bottom_of_box {
     width: 100%;
@@ -869,6 +869,9 @@ body{
 }
 .fifthchild_container .fifthmini_home .fifthchild_content .bottom {
     width: 90%;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .top_of_box img {
+    object-fit: none;
 }
 }
  
