@@ -149,6 +149,22 @@ body{
     overflow: hidden;
     white-space: nowrap;
 }
+ @keyframes typing {
+    from{
+        width: 0%;
+    }
+    to{
+     width: 100%;
+    }
+}
+@keyframes blink {
+    from{
+        border-color: transparent;
+    }
+    to{
+        border-color: 2px solid aqua;
+    }
+}
 .firstchild_container .first #sanjivini{
     color: whitesmoke;
     /* opacity: 1; */
@@ -445,7 +461,109 @@ body{
 }   
 .thirdchild_container .thirdminihome .thirdhome_content .thirdhome_bottom .thirdhome_boxes .firstbox h3{
     cursor: pointer;
-}   
+}  
+.fourthchild_container{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(thirdhome_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%,100%;
+    background-attachment: fixed;
+    background-position: center left;
+    opacity: 1;
+} 
+.fourthchild_container .fourthmini_home{
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 60%, rgba(255, 253, 253, 0.9) 100%); 
+}
+.fourthchild_container .fourthmini_home .left{
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(247, 234, 234, 0.82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 10px; */
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome{
+    width: 80%;
+    height: 60vh;
+    /* background-color: red; */
+    padding: 20px 20px;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome i{
+    color: rgba(1,146,188,.2);
+    margin-bottom:20px ;
+    display: inline-block;
+    transition: all .3s;
+    font-size: 70px;
+    height: 30px;
+    text-align: center;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome h2{
+    text-align: center;
+    margin: 20px 20px;
+    color: #0192bc;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome h1{
+    text-align: center;
+    margin: 20px 20px;
+    color: #0192bc;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome p{
+    text-align: center;
+    margin: 20px 20px;
+    color: #0192bc;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome #button{
+    margin: 25px 25px;
+    font-size: 20px;
+    text-align: left;
+    height: 50px;
+    width: 250px;
+    border-radius: 28px;
+    /* padding: 20px 20px; */
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-color: #2EDAF1;
+    background-color: #009faa;
+    color: whitesmoke;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome #button:hover{
+    background-color: #72f9a8;
+    transition: .5s linear;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(1, 1, 1, 0.82);
+    color: black;
+}
+
+.fourthchild_container .fourthmini_home .right{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.fourthchild_container .fourthmini_home .right img{
+    width: 100%;
+    margin-left: -80px;
+}
+
+
 
 @media screen and (max-width: 600px) {
    .nav-list li a {
@@ -526,7 +644,7 @@ body{
 }
 .thirdchild_container .thirdminihome {
     width: 100%;
-    height: 274vh;
+    height: 272vh;
 }
 .thirdchild_container .thirdminihome .thirdhome_content {
     width: 100%;
@@ -546,10 +664,10 @@ body{
 }
 .thirdchild_container {
     width: 100%;
-    height: 24vh;
+    height: 272vh;
     display: flex;
     justify-content: space-evenly;
-   background-image: none;
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%,100%;
@@ -557,21 +675,54 @@ body{
     background-position: center left;
     opacity: 1;
 }
+.fourthchild_container{
+    width: 100%;
+    height: 80vh;
+}
+.fourthchild_container .fourthmini_home .left {
+    width: 92%;
+    height: 66vh;
+    margin: 20px 20px;
+}
+.fourthchild_container .fourthmini_home {
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome {
+    width: 100%;
+    padding: 0px 0px;
+    padding-top: 10px;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome h2 {
+    font-size: 20px;
+}
+.fourthchild_container .fourthmini_home .left .fourth_left_minihome h1 {
+    font-size: 30px;
+}
+.fourthmini_home .left .fourth_left_minihome #button {
+    margin: 15px 25px;
+    font-size: 20px;
+    height: 50px;
+    width: 236px;
+}
+.fourthchild_container .fourthmini_home .right {
+    width: 92%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    margin-top: -160px;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 60%, rgba(255, 253, 253, 0.9) 100%); 
+}
+.fourthchild_container{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 60%, rgba(255, 253, 253, 0.9) 100%); 
+
+}
+.fourthchild_container .fourthmini_home .right img {
+    width: 100%;
+    margin-left: 0px;
+}
   }
 
-  @keyframes typing {
-    from{
-        width: 0%;
-    }
-    to{
-     width: 100%;
-    }
-}
-@keyframes blink {
-    from{
-        border-color: transparent;
-    }
-    to{
-        border-color: 2px solid aqua;
-    }
-}
+ 
