@@ -694,6 +694,7 @@ body{
     margin: 20px 20px;
     font-size:55px;
     color:#0192bc;
+    text-align: center;
 }
 .sixthchild_container .sixthmini_home button{
     
@@ -727,10 +728,12 @@ body{
     margin: 20px 20px;
     font-size: 20px;
     color:#0192bc;
+    text-align: center;
 }
 .sixthchild_container .sixthmini_home #para{
     margin: 20px 20px;
     color:#507d89;
+    text-align: center;
 }
 @media screen and (max-width: 600px) {
    .nav-list li a {
@@ -932,6 +935,17 @@ body{
 }
 .fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .top_of_box img {
     object-fit: none;
+}
+.sixthchild_container{
+    height: 65vh;
+}
+.sixthchild_container .sixthmini_home
+{
+    width: 100%;
+}
+.sixthchild_container .sixthmini_home h1 {
+    margin: 10px 10px;
+    font-size: 34px;
 }
 }
  
