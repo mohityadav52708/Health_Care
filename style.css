@@ -562,8 +562,115 @@ body{
     width: 100%;
     margin-left: -80px;
 }
+.fifthchild_container{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(fifthchild_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%,100%;
+    background-attachment: fixed;
+    background-position: center left;
+    opacity: 1;
+} 
 
-
+.fifthchild_container .fifthmini_home{
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgba(26, 148, 181, 0.9) 0, rgba(28, 255, 236, 0.9) 60%, rgba(0, 167, 128, 0.9) 100%);
+}
+.fifthchild_container .fifthmini_home .fifthchild_content
+{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    color: rgb(245, 245, 245);
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .top h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .top h1{
+    font-size: 55px;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    color: rgb(245, 245, 245);
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box{
+    width: 20%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+    /* background-color: whitesmoke; */
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .top_of_box{
+    width: 100%;
+    height: 57%;
+    border-radius: 10px 10px 0 0;
+    background-color: whitesmoke;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .top_of_box img{
+    border-top-right-radius: 8px;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .bottom_of_box{
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .bottom_of_box h2{
+    color: #0192bc;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .bottom_of_box p{
+    color: #0192bc;
+    margin-top: 30px;
+    text-align: center;
+}
 
 @media screen and (max-width: 600px) {
    .nav-list li a {
@@ -723,6 +830,45 @@ body{
     width: 100%;
     margin-left: 0px;
 }
-  }
+.fifthchild_container{ 
+    background-image: linear-gradient(45deg, rgba(26, 148, 181, 0.9) 0, rgba(28, 255, 236, 0.9) 60%, rgba(0, 167, 128, 0.9) 100%);
+    height: 296vh;
+}
+.fifthchild_container .fifthmini_home {
+    background-image: none;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .top h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box{
+    width: 100%;
+    height: 70vh;
+    margin: -10px 0px;
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom .boxes .box .bottom_of_box {
+    width: 100%;
+    height: 33%;
+}
 
+.fifthchild_container .fifthmini_home .fifthchild_content .top h1 {
+    font-size: 50px;
+
+  }
+  .fifthchild_container .fifthmini_home .fifthchild_content {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: none;
+    /* background-color: red; */
+}
+.fifthchild_container .fifthmini_home .fifthchild_content .bottom {
+    width: 90%;
+}
+}
  
