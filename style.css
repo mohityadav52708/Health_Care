@@ -75,7 +75,6 @@ body{
     align-items: center;
     background-color: #009faa;
     color: #fff;
-
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #fff;
@@ -1188,5 +1187,51 @@ width: 50%;
 .eightchild_container {
     flex-direction: column;
 }
+}
+@media screen and (max-width: 600px) {
+    .grand{
+        width: 127.9%;
+    }
+    .firstchild_container .first #welcome {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .firstchild_container .first #sanjivini {
+        font-size: 34px;
+    }
+    .searchbutton {
+        width: 16px;
+        height: 14px;
+    }
+    .firstchild_container {
+        width: 100%;
+        height: 70vh;
+    }
+    .firstchild_container .first #welcome {
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    .firstchild_container .first {
+        height: 0vh;
+    }
+    .firstchild_container .second .second_content {
+        line-height: 1.5;
+        margin-top: -55px;
+        width: 90%;
+    }
+    .secondchild_container .minisecondhome {
+        height: 50vh;
+    }
+    .secondchild_container .minisecondhome .left {
+        width: 100%;
+        height: 90vh;
+    }
+    .secondchild_container .minisecondhome .right {
+        width: 90%;
+        height: 0vh;
+    }
+    .secondchild_container {
+        height: 170vh;
+    }
 }
  
