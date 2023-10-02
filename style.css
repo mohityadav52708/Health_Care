@@ -1188,7 +1188,7 @@ width: 50%;
     flex-direction: column;
 }
 }
-@media screen and (max-width: 00px) {
+@media screen and (max-width: 400px) {
     .grand{
         width: 127.9%;
     }
@@ -1205,7 +1205,7 @@ width: 50%;
     }
     .firstchild_container {
         width: 100%;
-        height: 70vh;
+        height: 64vh;
     }
     .firstchild_container .first #welcome {
         font-size: 24px;
