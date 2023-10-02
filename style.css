@@ -21,7 +21,7 @@ body{
 }
 .grand{
     width: 100%;
-    height: 1250vh;
+    height: 735vh;
 }
 .parent_container{
     opacity: 1;
@@ -196,6 +196,7 @@ body{
     width: 80%;
     height: 20vh;
     color: black;
+    line-height: 1.8;
 }
 
 .secondchild_container{
@@ -735,6 +736,150 @@ body{
     color:#507d89;
     text-align: center;
 }
+.seventhchild_container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0192bc;
+}
+.seventhchild_container .seventhmini_home{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seventhchild_container .seventhmini_home .about_us{
+    width: 40%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-content: center;
+    
+    margin: 30px 30px;
+}
+.seventhchild_container .seventhmini_home .about_us h2{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.seventhchild_container .seventhmini_home .about_us p{
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 1.8;
+    text-align: left;
+}
+.seventhchild_container .seventhmini_home .Departments{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 30px 30px;
+}
+.seventhchild_container .seventhmini_home .Departments  h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.seventhchild_container .seventhmini_home .Departments a{
+    text-decoration: none;
+    font-size: 13px;
+    color: whitesmoke;
+    line-height: 2.5;
+}
+.seventhchild_container .seventhmini_home .contact_us{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+    margin: 30px 30px;
+}
+.seventhchild_container .seventhmini_home .contact_us .Contact_info{
+    width: 100%;
+    height: 20%;
+}
+.seventhchild_container .seventhmini_home .contact_us .Contact_info h3{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.seventhchild_container .seventhmini_home .contact_us .emergency{
+    width: 100%;
+    height: 20%;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.seventhchild_container .seventhmini_home .contact_us .emergency p{
+    margin-bottom: 10px;
+}
+.seventhchild_container .seventhmini_home .contact_us .address{
+    width: 100%;
+    height: 20%;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.seventhchild_container .seventhmini_home .contact_us .address p{
+    margin-bottom: 10px;
+}
+.seventhchild_container .seventhmini_home .contact_us .phone{
+    width: 100%;
+    height: 20%;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.seventhchild_container .seventhmini_home .contact_us .phone p{
+    margin-bottom: 10px;
+}
+.seventhchild_container .seventhmini_home .contact_us .email{
+    width: 100%;
+    height: 20%;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.seventhchild_container .seventhmini_home .contact_us .email p{
+    margin-bottom: 10px;
+}
+
+.seventhchild_container .seventhmini_home .contact_us .Contact_info{
+    width: 100%;
+    height: 20%;
+}
+.eightchild_container{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: grey;
+}
+.eightchild_container .first{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eightchild_container .second{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eightchild_container .third{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 600px) {
    .nav-list li a {
     font-size: 10px;
@@ -759,9 +904,11 @@ body{
  .firstchile_container .second{
         margin-top:30px;
  }
-   .firstchild_container .second .second_content {
-   text-align: left;
+ .firstchild_container .second .second_content {
+    text-align: left;
     font-size: 12px;
+    line-height: 1.3;
+    margin-top: -50px;
 }
 .secondchild_container{
     background-image: none;
@@ -946,6 +1093,100 @@ body{
 .sixthchild_container .sixthmini_home h1 {
     margin: 10px 10px;
     font-size: 34px;
+}
+.sixthchild_container .sixthmini_home #para{
+    line-height: 1.5;
+}
+.seventhchild_container .seventhmini_home {
+    flex-direction: column;
+    width: 90%;
+}
+.seventhchild_container {
+    width: 100%;
+    height: 130vh;
+}
+.seventhchild_container .seventhmini_home .about_us {
+    width: 100%;
+    height: 40vh;
+    margin: 0px 0px;
+}
+.seventhchild_container .seventhmini_home .about_us h2 {
+    text-align: center;
+}
+.seventhchild_container .seventhmini_home .about_us p{
+    text-align: center;
+}
+.seventhchild_container .seventhmini_home .Departments {
+    width: 90%;
+    margin: 57px 0px;
+}
+.seventhchild_container .seventhmini_home .Departments h3 {
+    text-align: center;
+}
+.seventhchild_container .seventhmini_home .Departments p {
+    text-align: center;
+}
+.seventhchild_container .seventhmini_home .Departments a {
+    font-size: 16px;
+}
+.seventhchild_container .seventhmini_home .contact_us {
+    width: 100%;
+    margin: 0px 0px;
+}
+.seventhchild_container .seventhmini_home .contact_us .Contact_info h3 {
+    text-align: center;
+}
+.seventhchild_container .seventhmini_home .contact_us .Contact_info p {
+    text-align: center;
+}
+.seventhchild_container .seventhmini_home .contact_us .emergency p {
+    text-align: left;
+}
+.seventhchild_container .seventhmini_home .contact_us .address p {
+    text-align: left;
+}
+.seventhchild_container .seventhmini_home .contact_us .phone p {
+    text-align: left;
+}
+.seventhchild_container .seventhmini_home .contact_us .email p {
+    text-align: left;
+}
+.info_cover{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.seventhchild_container .seventhmini_home .contact_us .emergency {
+    display: flex;
+justify-content: center;
+flex-direction: column;
+    align-items: center;
+width: 50%;
+}
+.seventhchild_container .seventhmini_home .contact_us .address {display: flex;
+    justify-content: center;
+    flex-direction: column;
+        align-items: center;
+    width: 50%;
+    margin-top: 30px;
+}
+.seventhchild_container .seventhmini_home .contact_us .email {display: flex;
+    justify-content: center;
+    flex-direction: column;
+        align-items: center;
+    width: 50%;
+    margin: 50px 0px;
+}
+.seventhchild_container .seventhmini_home .contact_us .phone {display: flex;
+    justify-content: center;
+    flex-direction: column;
+        align-items: center;
+    width: 50%;
+    margin: 50px 0px ;
+}
+.eightchild_container {
+    flex-direction: column;
 }
 }
  
