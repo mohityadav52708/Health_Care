@@ -227,6 +227,9 @@ body {
   width: 100%;
   margin: 10px;
   height: 30px;
+  padding: 20px 20px;
+  font-size: 18px;
+
 }
 .secondcontainer .minisecondhome .right .email {
   display: flex;
@@ -241,7 +244,14 @@ body {
   width: 100%;
   margin: 10px;
   height: 30px;
+  padding: 20px 20px;
+  font-size: 18px;
+
 }
+::placeholder {
+    color: grey;
+    opacity: 1; /* Firefox */
+  }
 .secondcontainer .minisecondhome .right .Message {
   display: flex;
   flex-direction: column;
@@ -255,6 +265,8 @@ body {
   width: 100%;
   margin: 10px;
   height: 100px;
+  padding: 20px 20px;
+  font-size: 18px;
 }
 .secondcontainer .minisecondhome .right #button {
   width: 180px;
