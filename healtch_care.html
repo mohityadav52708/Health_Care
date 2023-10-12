@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjivini</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="Aboutus.css">
+    <link rel="stylesheet" type="text/css" href="health_care.css">
     <!-- For Google Font -->
 
 
@@ -31,7 +31,7 @@
             <nav class="navbar">
                 <ul class="nav-list">
                     <li><a style="color:black;" href="index.html">Home</a></li>
-                    <li><a id="about" href="#">About Us</a></li>
+                    <li><a id="about" href="AboutUs.html">About Us</a></li>
                     <li><a id="about" href="contact.html">Contact</a></li>
                     <li><a id="about" href="healtch_care.html">HealthHistory</a></li>
                     <form action="" class="search">
@@ -44,28 +44,57 @@
                 </ul>
             </nav>
             <div class="about">
-                <h1>ABOUT</h1>
+                <h1>Helath Histroy</h1>
             </div>
         </div>
         <div class="secondcontainer">
             <div class="minisecondhome">
                 <div class="left">
-                    <div class="top">
-                        <h3>
-                            A FEW WORDS</h3>
-                        <h1>About Our Clinic</h1>
                     
-                        <p>
-                            Sanjivini Medical's webpage is a comprehensive online platform dedicated to healthcare excellence. Our site offers a wealth of information on medical services, treatments, and expert healthcare professionals. From detailed medical articles to appointment scheduling, we provide patients with the resources they need to make informed decisions about their health. Explore our site today to access top-notch medical care and support, all in one place. At Sanjivini Medical, we're committed to your well-being, and our webpage reflects our dedication to providing accessible, reliable healthcare information and services.   </p>
-                        
-                    </div>
+        <form action="submit_action.php" method="post">
+            <label for="name">Full Name:</label>
+            <input placeholder="Your Name" type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input placeholder="Your Emal id" type="email" id="email" name="email" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob" placeholder="MM/DD/YYYY" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="medical-history">Medical History:</label>
+            <textarea placeholder="Medical History" id="medical-history" name="medical-history" rows="4" required></textarea>
+        </form>
                 </div>
                 <div class="right">
-                    <div class="rightcover">
-                        <h2>WE ARE ALWAYS</h2>
-                        <h1>"GLAD TO HELP YOU"</h1>
-                        <b><p>RGM</p></b>
-                    </div>
+                    <form action="submit_action.php" method="post">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" required>
+            
+                        <label for="contact">Contact:</label>
+                        <input type="number" id="number" name="number" required placeholder="Contact Number">
+            
+                        <label for="dob">Blood Group</label>
+                        <input type="text" id="dob" name="bloodgroup" placeholder="Blood Group" required>
+            
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+            
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" rows="4" required placeholder="Your Address"></textarea>
+            
+                    </form>
+                    <input type="submit" value="Submit">
                 </div>
             </div>
         </div>
@@ -154,16 +183,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
