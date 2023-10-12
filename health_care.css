@@ -369,8 +369,8 @@ select {
     }
     .about {
       width: 100%;
-      height: 74vw;
-      font-size: 24px;
+      height: 65vw;
+      font-size: 19px;
     }
     .nav-list li a {
       font-size: 10px;
