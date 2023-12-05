@@ -79,6 +79,33 @@ body{
     border-radius: 4px;
     border: 1px solid #fff;
 }
+.chatbot{
+    display: inline-flex;
+    align-items: center;
+    background-color: #009faa;
+    color: #fff;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    animation: zoom-in-zoom-out 2s ease infinite;
+    position: fixed;
+}
+.chatbot i{
+    color: whitesmoke;
+    font-size: 30px;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
 
 .search :is(input,button){
     background:transparent;
@@ -179,6 +206,7 @@ body{
     padding: 20px 20px 20px 20px ;
     
 }
+
 .firstchild_container .second {
     /* margin-top: -50px; */
     width: 100%;
