@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-body {
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bot {
+    background-color: #e0e0e0;
+}
+
+.user {
+    background-color: #c2f0c2;
+}
+
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+</style>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Healthcare Chatbot</h1>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="message bot">
+                <p>Welcome! How can I assist you today?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script>function sendMessage() {
+        const userInput = document.getElementById('userInput');
+        const chatBody = document.getElementById('chatBody');
+    
+        const userMessage = userInput.value.trim();
+        if (userMessage === '') return;
+    
+        appendMessage('user', userMessage);
+        userInput.value = '';
+    
+        // Simulate a response from the bot (replace with actual chatbot logic)
+        const botResponse = getBotResponse(userMessage);
+        setTimeout(() => {
+            appendMessage('bot', botResponse);
+        }, 500);
+    }
+    
+    function appendMessage(sender, message) {
+        const chatBody = document.getElementById('chatBody');
+    
+        const messageContainer = document.createElement('div');
+        messageContainer.classList.add('message', sender === 'bot' ? 'bot' : 'user');
+        messageContainer.innerHTML = `<p>${message}</p>`;
+    
+        chatBody.appendChild(messageContainer);
+        chatBody.scrollTop = chatBody.scrollHeight;
+    
+    }
+    function getBotResponse(userMessage) {
+        if (userMessage.toLowerCase().includes('symptoms')) {
+            return "If you're experiencing specific symptoms, it's important to consult with a healthcare professional for accurate advice.";
+        }
+    
+        if (userMessage.toLowerCase().includes('medication')) {
+            return "I'm not a doctor, but I can provide general information. Please consult with a healthcare professional for personalized advice on medications.";
+        }
+    
+        if (userMessage.toLowerCase().includes('health advice')) {
+            return "For personalized health advice, it's recommended to consult with a healthcare professional.";
+        }
+        if (userMessage.toLowerCase().includes('what is your name')) {
+            return "I am your assistant made by RGM sir";
+        }
+    
+        // Default response
+        return "I'm a healthcare chatbot. I'm here to assist you with health-related questions.";
+    }
+    </script>
+</body>
+</html>
