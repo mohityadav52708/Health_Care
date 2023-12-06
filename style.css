@@ -908,6 +908,9 @@ body{
     align-items: center;
 }
 @media screen and (max-width: 600px) {
+    .chatbot{
+        margin-left: -65px;
+    }
    .nav-list li a {
     font-size: 10px;
     justify-content:space-evenly ;
