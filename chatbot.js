@@ -109,6 +109,9 @@ function getBotResponse(userMessage) {
     if (userMessage.toLowerCase().includes('gastrointestinal issues') || userMessage.toLowerCase().includes('digestive problems')) {
         return "Digestive problems can have various causes. It's important to maintain a healthy diet, stay hydrated, and seek medical advice if symptoms persist. A gastroenterologist can provide specialized care for gastrointestinal issues.";
     }
+    if (userMessage.toLowerCase().includes('cardiologist problem') || userMessage.toLowerCase().includes('cardiologist issue')||userMessage.toLowerCase().includes('Cardiology ')) {
+        return "Cardiology is a branch of medicine that concerns diseases and disorders of the heart, which may range from congenital defects through to acquired heart diseases such as coronary artery disease.";
+    }
 
     // Default response
     return "I'm a healthcare chatbot. I'm here to assist you with health-related questions.";
