@@ -16,8 +16,8 @@
 }
 
 .chat-header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #44f3c9;
+    color: black;
     padding: 10px;
     text-align: center;
 }
@@ -61,7 +61,7 @@ input {
 button {
     padding: 10px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #0192bc;
     color: #fff;
     border: none;
     border-radius: 5px;
