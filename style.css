@@ -909,7 +909,6 @@ body{
 }
 @media screen and (max-width: 600px) {
     .chatbot{
-        margin-top: 900px;
         margin-left: -65px;
     }
    .nav-list li a {
