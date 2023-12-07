@@ -3,10 +3,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(
+      to right,
+      rgba(17, 255, 255, 0.4) 0,
+      rgba(5, 192, 255, 0.8) 60%,
+      rgba(19, 247, 255, 0.8) 100%
+    );
 }
 
 h1 {
-    margin-top: 20px;
+    margin-top: 65px;
 }
 
 #imageInput {
